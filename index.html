@@ -5,27 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbería-Alura</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 62.5%;
+            font-family: 'Poppins', sans-serif;
+        }
+        header {
+            background: rgb(203, 203, 203);
+        }
+        .navbar-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 940px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .menu {
+            display: flex;
+            gap: 28px;
+        }
+        .menu-items {
+            list-style: none;
+        }
+        .menu-items a {
+            font-size: 2rem;
+            font-weight: 600;
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>
+        <section class="navbar-menu">
+            <h1 class="logo-container">
                 <a href="./index.html">
-                    <img src="./imagenes/logo.png" alt="Logo Barbería Alura">
+                    <img class="logo-img" src="./imagenes/logo.png" alt="Logo Barbería Alura">
                 </a>
             </h1>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Productos</a>
-                </li>
-                <li>
-                    <a href="#">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+            <nav>
+                <ul class="menu">
+                    <li class="menu-items">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="#">Productos</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </header>
     <main>
         <section>
