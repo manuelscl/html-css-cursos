@@ -70,6 +70,42 @@
             font-size: 18px;
             font-weight: bold;
         }
+
+        /* Why us */
+        .why-us {
+            max-width: 940px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .why-us-title {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .why-us-list {
+            list-style: none;
+        }
+        .why-us-list li {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .why-us-list li:nth-child(1) {
+            font-weight: bold;
+        }
+        .why-us-list li::before {
+            content: '★';
+            margin-right: 10px;
+        }
+        .why-us-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .why-us-content div:nth-child(2) {
+            width: 50%;
+        }
+        .image-d {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -113,22 +149,23 @@
         </section>
         
         <section class="why-us">
-            <div class="wrapper">
-                <div>
-                    <ul class="why-us-list">
-                        <li>Atención personalizada al cliente</li>
-                        <li>Espacio diferenciado</li>
-                        <li>Localización</li>
-                        <li>Profesionales calificados</li>
-                        <li>Puntualidad</li>
-                        <li>Limpieza</li>
-                    </ul>
+                <h3 class="why-us-title">Diferenciales</h3>
+                <div class="why-us-content">
+                    <div>
+                        <ul class="why-us-list">
+                            <li>Atención personalizada al cliente</li>
+                            <li>Espacio diferenciado</li>
+                            <li>Localización</li>
+                            <li>Profesionales calificados</li>
+                            <li>Puntualidad</li>
+                            <li>Limpieza</li>
+                        </ul>
+                    </div>
+        
+                    <div>
+                        <img class="image-d" src="./diferenciales/diferenciales.jpg" alt="">
+                    </div>
                 </div>
-    
-                <div>
-                    <img src="./diferenciales/diferenciales.jpg" alt="">
-                </div>
-            </div>
         </section>
 
         <section class="location-mp">
