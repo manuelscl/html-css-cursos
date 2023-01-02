@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background: rgb(203, 203, 203);
+}
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.menu {
+    display: flex;
+    gap: 28px;
+}
+.menu-items {
+    list-style: none;
+}
+.menu-items a {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Home */
+.banner-img {
+    width: 100%;
+}
+
+/* About us */
+.about-us {
+    background:rgb(251, 251, 251);
+}
+.about-us-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-us p {
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+.p-details {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Why us */
+.why-us {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.why-us-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.why-us-list {
+    list-style: none;
+}
+.why-us-list li {
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+.why-us-list li:nth-child(1) {
+    font-weight: bold;
+}
+.why-us-list li::before {
+    content: '★';
+    margin-right: 10px;
+}
+.why-us-content {
+    display: flex;
+    justify-content: space-between;
+}
+.why-us-content div:nth-child(2) {
+    width: 50%;
+}
+.image-d {
+    width: 100%;
+}
+
+/* Location */
+.location-mp {
+    padding-top: 60px;
+}
+.location-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Product Cards */
+.product-cards {
+    display: flex;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 60px 0;
+    gap: 20px;
+}
+.card {
+    width: 300px;
+    border: 2px solid rgb(57 57 57);
+    border-radius: 8px;
+    padding: 20px 20px;
+    text-align: center;
+    list-style: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.card-title {
+    font-size: 2.7rem;
+    margin: 22px 0;
+    transition: 0.3s ease;
+}
+.card-description {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.price {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 18px 0;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background: url('./imagenes/bg.jpg');
+    text-align: center;
+    padding: 30px 0;
+}
+.author {
+    font-size: 1.8rem;
+}
