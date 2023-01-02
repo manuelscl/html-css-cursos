@@ -278,12 +278,29 @@ footer {
     }
 
     /* Contact Form */
+    .contact-form {
+        max-width: 500px;
+    }
     .name-lastname {
         display: block;
     }
     .input-name-container, 
     .input-lastname-container {
         display: none;
+    }
+    .inputs-name-lastname,
+    .inputs-email-tel {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .name-lastname, 
+    .input-name-container, 
+    .input-lastname-container, 
+    .input-tel-container {
+        margin-bottom: 15px;
+    }
+    .message-container {
+        margin: 15px 0 0 0;
     }
 
 }
@@ -338,4 +355,5 @@ footer {
         font-size: 1.7rem;
     }
 
+    /* Contact form */
 }
