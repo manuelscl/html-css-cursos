@@ -126,6 +126,14 @@ header {
     transition: 0.3s ease;
     cursor: pointer;
 }
+.card:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0 0 40px 2px rgb(16 16 16 / 19%);
+    border-color: rgb(177, 152, 14);
+}
+.card:hover .card-title {
+    font-size: 2.5rem;
+}
 .card-title {
     font-size: 2.7rem;
     margin: 22px 0;
