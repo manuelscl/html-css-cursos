@@ -39,6 +39,10 @@
         <section class="contact-form">
             <form action="">
                 <div class="inputs-name-lastname">
+                    <div class="name-lastname">
+                        <label for="nameAndLastname" class="label-name-lastname">Nombre y Apellido</label>
+                        <input class="inputs-styles" id="nameAndLastname" type="text" required>
+                    </div>
                     <div class="input-name-container">
                         <label for="input-name" class="label-styles">Nombre</label>
                         <input class="inputs-styles" id="input-name" type="text" required>
@@ -53,15 +57,15 @@
                         <label for="input-email" class="label-styles">Correo Electrónico</label>
                         <input class="inputs-styles" id="input-name" type="email" placeholder="ejemplo@dominio.com" required>
                     </div>
-                    <div class="input-lastname-container">
+                    <div class="input-tel-container">
                         <label for="input-tel" class="label-styles">Teléfono</label>
                         <input class="inputs-styles" id="input-tel" type="tel" placeholder="(XXX) XXXXXXXX" required>
                     </div>
                 </div>
 
-                <fieldset>
-                    <label for="message">Mensaje</label>
-                    <textarea id="message" placeholder="Hola, me gustaría..."></textarea>
+                <fieldset class="message-container">
+                    <label for="message" class="message-label">Mensaje</label>
+                    <textarea class="message-a" id="message" placeholder="Hola, me gustaría..." required></textarea>
                 </fieldset>
             </form>
         </section>

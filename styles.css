@@ -173,6 +173,58 @@ header {
     margin: 18px 0;
 }
 
+/* Contact form */
+.contact-form {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+.inputs-styles, 
+.label-styles {
+    width: 100%;
+    font-size: 1.8rem;
+}
+.inputs-styles {
+    padding: 8px 10px;
+}
+.input-name-lastname, 
+.label-name-lastname {
+    font-size: 1.8rem;
+}
+.inputs-name-lastname,
+.inputs-email-tel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.name-lastname,
+.input-name-container, 
+.input-lastname-container,
+.input-email-container,
+.input-tel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.name-lastname {
+    display: none;
+}
+.message-container {
+    border: none;
+}
+.message-label {
+    font-size: 1.8rem;
+}
+.message-a {
+    width: 100%;
+    height: 160px;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    padding: 10px;
+    resize: none;
+}
+
 /* Footer */
 footer {
     color: white;
@@ -205,6 +257,7 @@ footer {
     .card {
         width: 280px;
     }
+
 }
 @media (max-width: 640px) {
     .navbar-menu {
@@ -222,6 +275,15 @@ footer {
     /* Product Cards */
     .card {
         width: 380px;
+    }
+
+    /* Contact Form */
+    .name-lastname {
+        display: block;
+    }
+    .input-name-container, 
+    .input-lastname-container {
+        display: none;
     }
 
 }
@@ -275,4 +337,5 @@ footer {
     .price {
         font-size: 1.7rem;
     }
+
 }
