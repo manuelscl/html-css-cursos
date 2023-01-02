@@ -180,3 +180,60 @@ footer {
 .author {
     font-size: 1.8rem;
 }
+
+@media (max-width: 980px) {
+    .navbar-menu {
+        padding: 20px 20px;
+    }
+    .wrapper {
+        padding: 60px 20px;
+    }
+    .why-us {
+        padding: 60px 20px;
+    }
+}
+@media (max-width: 640px) {
+    .navbar-menu {
+        padding: 20px 0;
+        flex-direction: column;
+    }
+    .why-us-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .why-us-content div:nth-child(2) {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .menu {
+        gap: 10px;
+    }
+    .menu-items a {
+        font-size: 1.8rem;
+    }
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-us-title {
+        font-size: 2.2rem;
+    }
+    .about-us p,
+    .p-details {
+        font-size: 1.7rem;
+    }
+    .why-us {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .why-us-title {
+        font-size: 2.2rem;
+    }
+    .why-us-list li {
+        font-size: 1.7rem;
+    }
+    .location-title {
+        font-size: 2.2rem;
+    }
+}
