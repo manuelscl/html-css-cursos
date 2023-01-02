@@ -36,26 +36,35 @@
         </section>
     </header>
     <main>
-        <ul class="product-cards">
-            <li class="card">
-                <h2 class="card-title">Cabello</h2>
-                <img class="card-img" src="./imagenes/cabello.jpg" alt="">
-                <p class="card-description">Con tijera o máquina, a gusto del cliente</p>
-                <p class="price">$ 10.00</p>
-            </li>
-            <li class="card">
-                <h2 class="card-title">Barba</h2>
-                <img class="card-img" src="./imagenes/barba.jpg" alt="">
-                <p class="card-description">Corte y diseño profesional de barba</p>
-                <p class="price">$ 10.00</p>
-            </li>
-            <li class="card">
-                <h2 class="card-title">Cabello + Barba</h2>
-                <img class="card-img" src="./imagenes/cabello+barba.jpg" alt="">
-                <p class="card-description">Paquete completo cabello y barba</p>
-                <p class="price">$ 10.00</p>
-            </li>
-        </ul>
+        <section class="contact-form">
+            <form action="">
+                <div class="inputs-name-lastname">
+                    <div class="input-name-container">
+                        <label for="input-name" class="label-styles">Nombre</label>
+                        <input class="inputs-styles" id="input-name" type="text" required>
+                    </div>
+                    <div class="input-lastname-container">
+                        <label for="input-lastname" class="label-styles">Apellido</label>
+                        <input class="inputs-styles" id="input-lastname" type="text" required>
+                    </div>
+                </div>
+                <div class="inputs-email-tel">
+                    <div class="input-email-container">
+                        <label for="input-email" class="label-styles">Correo Electrónico</label>
+                        <input class="inputs-styles" id="input-name" type="email" placeholder="ejemplo@dominio.com" required>
+                    </div>
+                    <div class="input-lastname-container">
+                        <label for="input-tel" class="label-styles">Teléfono</label>
+                        <input class="inputs-styles" id="input-tel" type="tel" placeholder="(XXX) XXXXXXXX" required>
+                    </div>
+                </div>
+
+                <fieldset>
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" placeholder="Hola, me gustaría..."></textarea>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         <img src="./imagenes/logo-blanco.png" alt="Logo Barbería Alura">
