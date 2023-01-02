@@ -24,6 +24,7 @@ header {
 }
 .menu-items {
     list-style: none;
+    position: relative;
 }
 .menu-items a {
     font-size: 2rem;
@@ -31,6 +32,26 @@ header {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 0.3s ease;
+}
+.menu-items a::before,
+.menu-items a::before, 
+.menu-items a::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 10px;
+    height: 2px;
+    transition: 0.3s ease;
+}
+.menu-items:hover a::before,
+.menu-items:hover a::before, 
+.menu-items:hover a::before {
+    width: 100%;
+    background: black;
+}
+.menu-items a:hover {
+    color: rgb(177, 152, 14);
 }
 .wrapper {
     max-width: 940px;
