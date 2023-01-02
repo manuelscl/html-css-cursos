@@ -160,6 +160,9 @@ header {
     margin: 22px 0;
     transition: 0.3s ease;
 }
+.card-img {
+    width: auto;
+}
 .card-description {
     font-size: 2rem;
     margin: 20px 0;
@@ -191,6 +194,17 @@ footer {
     .why-us {
         padding: 60px 20px;
     }
+
+    /* Product Card */
+    .product-cards {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 60px 20px;
+    }
+    .card {
+        width: 280px;
+    }
 }
 @media (max-width: 640px) {
     .navbar-menu {
@@ -204,6 +218,12 @@ footer {
     .why-us-content div:nth-child(2) {
         width: 100%;
     }
+    
+    /* Product Cards */
+    .card {
+        width: 380px;
+    }
+
 }
 @media (max-width: 400px) {
     .menu {
@@ -235,5 +255,24 @@ footer {
     }
     .location-title {
         font-size: 2.2rem;
+    }
+    
+    /* Product Cards */
+    .product-cards {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card {
+        width: 100%;
+    }
+    .card-title {
+        font-size: 2.4rem;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-description, 
+    .price {
+        font-size: 1.7rem;
     }
 }
