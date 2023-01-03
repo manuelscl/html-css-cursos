@@ -224,6 +224,32 @@ header {
     padding: 10px;
     resize: none;
 }
+.contact-h {
+    display: flex;
+    justify-content: space-between;
+}
+.legend-styles {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.fieldset-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: none;
+}
+.fieldset-container label {
+    font-size: 18px;
+}
+.fieldset-container input {
+    margin-right: 8px;
+}
+select {
+    font-size: 18px;
+}
+select option {
+    font-size: 18px;
+}
 
 /* Footer */
 footer {
@@ -281,6 +307,10 @@ footer {
     .contact-form {
         max-width: 500px;
     }
+    .contact-h {
+        flex-direction: column;
+        justify-content: center;
+    }
     .name-lastname {
         display: block;
     }
@@ -302,7 +332,6 @@ footer {
     .message-container {
         margin: 15px 0 0 0;
     }
-
 }
 @media (max-width: 400px) {
     .menu {
@@ -354,6 +383,4 @@ footer {
     .price {
         font-size: 1.7rem;
     }
-
-    /* Contact form */
 }

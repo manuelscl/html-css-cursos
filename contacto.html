@@ -67,6 +67,24 @@
                     <label for="message" class="message-label">Mensaje</label>
                     <textarea class="message-a" id="message" placeholder="Hola, me gustaría..." required></textarea>
                 </fieldset>
+
+                <div class="contact-h">
+                    <fieldset class="fieldset-container">
+                        <legend class="legend-styles">¿Cómo le gustaría que lo contactemos?</legend>
+                        <label for="radio-email"><input type="radio" name="contact" id="radio-email">Email</label>
+                        <label for="radio-tel"><input type="radio" name="contact" id="radio-tel">Teléfono</label>
+                        <label for="radio-whatsapp"><input type="radio" name="contact" id="radio-whatsapp" checked>Whatsapp</label>
+                    </fieldset>
+    
+                    <fieldset class="fieldset-container">
+                        <legend class="legend-styles">¿En qué horario prefieres ser atendido?</legend>
+                        <select>
+                            <option value="Mañana">Mañana</option>
+                            <option value="Tarde">Tarde</option>
+                            <option value="Noche">Noche</option>
+                        </select>
+                    </fieldset>
+                </div>
             </form>
         </section>
     </main>
