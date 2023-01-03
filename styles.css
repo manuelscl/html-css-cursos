@@ -239,18 +239,40 @@ header {
     border: none;
 }
 .fieldset-container label {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .fieldset-container input {
     margin-right: 8px;
 }
 select {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 select option {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
+.checkbox-container {
+    margin-top: 40px;
+}
+.checkbox-container label {
+    display: block;
+    font-size: 1.8rem;
+}
+#notifications {
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+#btn-submit {
+    width: 435px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(177, 152, 14);
+    margin-top: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 /* Footer */
 footer {
     color: white;
@@ -331,6 +353,9 @@ footer {
     }
     .message-container {
         margin: 15px 0 0 0;
+    }
+    #btn-submit {
+        width: 100%;
     }
 }
 @media (max-width: 400px) {
