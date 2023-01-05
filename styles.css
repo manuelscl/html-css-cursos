@@ -246,6 +246,7 @@ header {
 }
 select {
     font-size: 1.8rem;
+    padding: 8px 10px;
 }
 select option {
     font-size: 1.8rem;
@@ -273,6 +274,32 @@ select option {
     transition: 0.3s ease;
     cursor: pointer;
 }
+#btn-submit:hover {
+    background: rgb(143, 123, 10);
+    box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.202);
+    transform: translate(0, -5px);
+}
+/* Schedule */
+.schedule-container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+.schedule {
+    width: 300px;
+    text-align: center;
+}
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 8px;
+}
+.schedule-title {
+    font-size: 20px;
+    background: rgb(170, 168, 168);
+}
+
 /* Footer */
 footer {
     color: white;
@@ -357,6 +384,11 @@ footer {
     #btn-submit {
         width: 100%;
     }
+
+    /* Schedule */
+    .schedule {
+        margin: 0 auto;
+    }
 }
 @media (max-width: 400px) {
     .menu {
@@ -407,5 +439,11 @@ footer {
     .card-description, 
     .price {
         font-size: 1.7rem;
+    }
+    .schedule-container {
+        padding: 60px 0;
+    }
+    .schedule {
+        max-width: 280px;
     }
 }
